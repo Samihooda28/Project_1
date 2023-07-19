@@ -1,5 +1,6 @@
 # Project_1
 Crash Victims Characteristics Code 
+
 •	This pandas code was analysis the characteristics of the victims of the fatal crashes, their age, gender and the type of road user they were. 
 •	First all the modules required to create visuals and analyse the data were imported into the datafile. 
 •	A path was created to the crash data that had been cleaned in a previous pandas file (named cleaned_crash_data) that was stored in the data folder. 
