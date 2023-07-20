@@ -1,6 +1,8 @@
 # Project_1
-Crash Victims Characteristics Code 
+This repository contains files used to Road Fatalities in Australia 2014-2021. The code for analysis is contained in 3 pandas files called Cleaning_raw_crash_data, Crash Victim Characteristics Code and First_Project. The raw data csv and the cleaned exported csv file are contained in the Data folder called crash_data and cleaned crash data respectively. All graphs created in Crash Victim Data were saved and exported to the Images file. 
 
+
+Cleaning_raw_crash_data Code
 First of all, we took Crash Data Australia to figure out the fatal causalities that happened in Australia. After that, we removed all the NaN values and only selected the columns which we will be using in the project.
 
 We also removed the "Other/-9" user from the Road User column and unspecified values from the Speed Limit column. Then, we reset the index and dropped the original index.
@@ -15,7 +17,8 @@ Used the aggression function to calculate the mean, median, and standard deviati
 
 Used a line chart to show the number of crashes that happened inside a speed limit.
 
-•	This pandas code was analysis the characteristics of the victims of the fatal crashes, their age, gender, and the type of road user they were. 
+Crash Victims Characteristics Code 
+•	This pandas code analysed the characteristics of the victims of the fatal crashes, their age, gender, and the type of road user they were. 
 •	First all the modules required to create visuals and analyse the data were imported into the datafile. 
 •	A path was created to the crash data that had been cleaned in a previous pandas file (named cleaned_crash_data) that was stored in the data folder. 
 •	The CSV of the cleaned crash data file was read into pandas as a data frame. 
