@@ -42,4 +42,7 @@ Used a line chart to show the number of crashes that happened inside a speed lim
 •	Next the number of fatalities per discrete age value was analyzed. First, a series was created to count the number of fatalities per age using the .count function on the “Age column” of the cleaned_crash_data data frame  (discrete_age_data). This series was then converted into a data frame and the index was reset (victim_age_summary). Summary statistics for the number of crashes per age were calculated using the aggregation method on the discrete_age_data series to find the mean, median, variance, standard deviation, and SEM of the data.
 •	The number of fatalities vs age was then plotted as a scatter plot using matplotlib and iloc from the victim_age_summary data frame. Matplotlib was then used to calculate the correlation coefficient and a linear regression model to show the relationship between the age of the victim and the number of crashes.
 •	This process was then repeated for the data frame containing fatalities from single-vehicle crashes only where the driver was the victim. 
+•	Some time data was also transformed to be able to get some calculation for bins and created a (Time Frame) 
 •	All plots were saved to a file called Images in the project_1 repository. 
+
+
