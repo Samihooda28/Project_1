@@ -1,5 +1,5 @@
 # Project_1
-This repository contains files used to Road Fatalities in Australia 2014-2021. The code for analysis is contained in 3 pandas files called Cleaning_raw_crash_data, Crash Victim Characteristics Code and First_Project. The raw data csv and the cleaned exported csv file are contained in the Data folder called crash_data and cleaned crash data respectively. All graphs created in Crash Victim Data were saved and exported to the Images file. The plots from CLeaning_raw_crash_data was exported and saved into the Images folder within the data folder.  
+This repository contains files used to Road Fatalities in Australia 2014-2021. The code for analysis is contained in 3 pandas files called Cleaning_raw_crash_data, Crash Victim Characteristics Code and First_Project. The raw data csv and the cleaned exported csv file are contained in the Data folder called crash_data and cleaned crash data respectively. All graphs created in Crash Victim Data were saved and exported to the Images file. The plots from CLeaning_raw_crash_data was exported and saved into the Images folder within the data folder. Additionally a readme file explaining the datafiles is contained in the repository and the written report.
 
 
 Cleaning_raw_crash_data Code
